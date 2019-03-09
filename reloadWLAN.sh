@@ -38,6 +38,6 @@ wpa_cli -i ${IFCE} enable_network 0
 wpa_cli -i ${IFCE} reconfigure
 wpa_cli -i ${IFCE} save_config
 
-# reload the wpa_supplicant configured file and then get the dynamic IP from DHCP server
+# reload the wpa_supplicant configured file and then restat the DHCPCD service
 systemctl daemon-reload
 systemctl restart dhcpcd.service
