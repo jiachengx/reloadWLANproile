@@ -1,5 +1,6 @@
 Reload the WLAN profile wihtout reboot under Raspbian OS using Raspberry Pi
 
+# bash #
 Usage：
 
             Mode                 0: SSID      | 1: BSSID
@@ -13,3 +14,7 @@ For example:
 
     bash reloadWLAN.sh 0 SAM password TW
     bash reloadWLAN.sh 1 AA:BB:CC:DD:EE password TW
+
+# python #
+
+TBD
